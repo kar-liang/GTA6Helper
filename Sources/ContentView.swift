@@ -100,6 +100,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("清单", systemImage: "checklist")
                 }
+            MapView()
+                .tabItem {
+                    Label("地图", systemImage: "map.fill")
+                }
             LocationsView()
                 .tabItem {
                     Label("点位", systemImage: "mappin.and.ellipse")
